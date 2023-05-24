@@ -46,8 +46,7 @@ struct RecipeDetailView: View {
                     }
                 }.padding(.horizontal)
             }
-        }
-    }
+        }.navigationBarTitle(recipe.name)    }
 }
 
 struct RecipeDetailView_Previews: PreviewProvider {
